@@ -3,6 +3,14 @@
 > 每次定时任务先读本文件：按「下一篇」推送，推送后把进度指针向后移一位并更新记录。
 > 全部 30 篇推完后，从第 1 篇开始第二轮（可换更深的追问角度）。
 
+## 飞书推送配置
+
+- 私聊接收人 open_id：`ou_b55e54ab27544c0155dbd02b0c65df48`（用户 lin，user 身份发送）
+- 云文档：`QkRqdUAspoKXeAxleY4cgvJtnAB`
+  URL：https://my.feishu.cn/docx/QkRqdUAspoKXeAxleY4cgvJtnAB
+- 每日流程：Trae 对话推送 → 飞书私聊消息 → 云文档 `--command append` 追加 → 回写本文件
+- 若飞书调用报授权错误：仍完成 Trae 对话推送，并提示用户重新连接飞书连接器
+
 ## 进度指针
 
 - 已完成：Day 1
